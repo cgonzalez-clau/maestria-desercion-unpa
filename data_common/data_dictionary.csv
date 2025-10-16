@@ -1,0 +1,7 @@
+variable,descripcion,dominio/tipos,transformacion,origen,notas
+EDAD,Edad en años cumplidos,int,recorte 15–75,SIU,fuera de rango -> NaN
+HS_TRAB,Horas de trabajo semanal,categ {0,1-20,21-35,36+},mapeo a ordinal,Formulario 2018,"\N => NaN"
+CANT_HIJOS,Cantidad de hijos,int,normalización de texto,Formulario 2018,"'No tiene'->0, '\N'->NaN"
+REINSCRIPT,Indicador de readmisión,bool {SI,NO},consistencia con REINSCRIP fecha,SIU-Guaraní,"si fecha en REINSCRIP entonces SI"
+AÑO_EGRESO,Año de egreso secundario,int,sin imputación,Formulario,extremos conservados
+...
