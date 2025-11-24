@@ -39,4 +39,4 @@ El EDA presentado aquí:
   - avance académico (`PORCENTAJE`),
   - antigüedad en la carrera (`ANTIG_CARR`).
 
-Estos resultados constituyen la **base descriptiva** sobre la cual se proyectarán futuras etapas de trabajo, incluyendo el diseño del ICT y el desarrollo de modelos predictivos de riesgo de deserción.
+Estos resultados constituyen la **base descriptiva** sobre la cual se proyectarán futuras etapas de trabajo, incluyendo el desarrollo de modelos predictivos de riesgo de deserción.
